@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'font1';
+    src: url('../public/fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('../public/fonts/StackSansNotch-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'font3';
+    src: url('../public/fonts/Rubik80sFade-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'font4';
+    src: url('../public/fonts/BungeeSpice-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'font5';
+    src: url('../public/fonts/Bungee-Regular.ttf');
+}
+@font-face {
+    font-family: 'font6';
+    src: url('../public/fonts/Staatliches-Regular.ttf');
+}
+@font-face {
+    font-family: 'font7';
+    src: url('../public/fonts/Goldman-Bold.ttf');
+}
+@font-face {
+    font-family: 'font8';
+    src: url('../public/fonts/EBGaramond-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'font9';
+    src: url('../public/fonts/EBGaramond-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'font10';
+    src: url('../public/fonts/StackSansHeadline-VariableFont_wght.ttf');
+}
+
+/* fonts type */
+.font1 {
+    font-family: font1;
+}
+
+.font2 {
+    font-family: font2;
+}
+
+.font3 {
+    font-family: font3;
+    font-weight: 200;
+}
+
+.font4 {
+    font-family: font4;
+}
+
+.font5{
+    font-family: font5;
+}
+.font6{
+    font-family: font6;
+    font-weight: 200;
+}
+.font7{
+    font-family: font7;
+}
+.font8{
+    font-family: font8;
+}
+.font9{
+    font-family: font9;
+}
+.font10{
+    font-family: font10;
+}
