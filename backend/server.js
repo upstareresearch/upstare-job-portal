@@ -16,7 +16,7 @@ connectDB()
 
 const io = socketio(httpServer, {
     cors: {
-        origin: "http://localhost:5173",
+        origin: process.env.CORS_ORIGIN,
         methods: ["GET", "POST"],
         credentials: true,
     }
