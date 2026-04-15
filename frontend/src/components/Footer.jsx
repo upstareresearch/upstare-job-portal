@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -13,10 +13,10 @@ const Footer = () => {
                             Users can sign up, build their professional profile, upload photos, cover images, and resumes. They can browse job listings, apply instantly, and track application status
                         </p>
                         <div className="flex gap-3 mt-2">
-                            <a href="#" ><FaFacebookF size={20} /></a>
-                            <a href="#"><FaLinkedinIn size={20} /></a>
-                            <a href="#"><FaTwitter size={20} /></a>
-                            <a href="#"><FaYoutube size={20} /></a>
+                            <a href="https://www.facebook.com/share/1G6cjTVHPX/" ><FaFacebookF size={20} /></a>
+                            <a href="https://www.linkedin.com/company/upstareresearch/posts/?feedView=all"><FaLinkedinIn size={20} /></a>
+                            <a href="https://x.com/upstareresearch"><FaTwitter size={20} /></a>
+                            <a href="https://www.instagram.com/upstare_research?igsh=MXN6OWNsNWRrcXk3NA=="><FaInstagram size={20} /></a>
                         </div>
                     </div>
                     {/* Useful Links */}
@@ -45,21 +45,21 @@ const Footer = () => {
                         <h3 className="text-lg font-semibold mb-2">Contact Info</h3>
                         <div className="flex items-center gap-2 mb-2 text-sm">
                             <FaMapMarkerAlt className="text-pink-400" />
-                            <span>Gate no -2 Minal<br />Bhopal<br />EC2M 4QP</span>
+                            <span><br />Bhopal<br />Madhya Pradesh</span>
                         </div>
                         <div className="flex items-center gap-2 mb-2 text-sm">
                             <FaPhoneAlt className="text-pink-400" />
-                            <span>+1 234 567 7890</span>
+                            <span>+ 91-6268226160</span>
                         </div>
                         <div className="flex items-center gap-2 text-sm">
                             <FaEnvelope className="text-pink-400" />
-                            <span>ashokyadavrtp200@gmail.com</span>
+                            <span>support@upstareresearch.com</span>
                         </div>
                     </div>
                 </div>
                 {/* Copyright */}
                 <div className="text-center text-xs mt-8 text-gray-300">
-                    © 2025 Work_On | All rights reserved | Designed with ❤️ by Ashok Yadav.
+                    © 2025 Upstare Research | All rights reserved | Designed with Upstare Research.
                 </div>
             </footer>
         </>

@@ -52,15 +52,15 @@ const Contact = () => {
                     <div className="flex flex-col gap-3 text-base font-medium">
                         <div className="flex items-center gap-2">
                             <FaEnvelope />
-                            <span>ashokyadavrtp200@gmail.com</span>
+                            <span>support@upstareresearch.com</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <FaPhoneAlt />
-                            <span>+14 123 456 789</span>
+                            <span>+ 91-6268226160</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <FaMapMarkerAlt />
-                            <span>Gate no.2 minal Bhopal</span>
+                            <span>Bhopal Madhya Pradesh</span>
                         </div>
                     </div>
                     <div className="flex gap-6 mt-4 text-2xl">
