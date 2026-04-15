@@ -9,7 +9,6 @@ const connectDB = require("./src/db/db");
 // const cacheClient = require("./src/services/cache.services");
 const MessageModel = require("./src/models/message.Model");
 
-
 // -----------------
 // mongodb fuction
 // ------------------
@@ -17,7 +16,7 @@ connectDB()
 
 const io = socketio(httpServer, {
     cors: {
-        origin: process.env.CORS_ORIGIN,
+        origin: "http://localhost:5173",
         methods: ["GET", "POST"],
         credentials: true,
     }
